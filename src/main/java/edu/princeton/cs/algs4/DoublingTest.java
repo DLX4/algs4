@@ -16,6 +16,8 @@
 
 package edu.princeton.cs.algs4;
 
+import algs4.exercise.ErdosRenyi;
+
 /**
  *  The {@code DoublingTest} class provides a client for measuring
  *  the running time of a method using a doubling test.
@@ -56,8 +58,8 @@ public class DoublingTest {
      * @param args the command-line arguments
      */
     public static void main(String[] args) { 
-        for (int n = 250; true; n += n) {
-            double time = timeTrial(n);
+        for (int n = 100; true; n += n) {
+            double time = ErdosRenyi.timeTrial(n, 1000);
             StdOut.printf("%7d %7.1f\n", n, time);
         } 
     } 

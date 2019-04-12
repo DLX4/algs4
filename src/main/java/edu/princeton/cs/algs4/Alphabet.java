@@ -79,7 +79,7 @@ public class Alphabet {
 
 
     private char[] alphabet;     // the characters in the alphabet
-    private int[] inverse;       // indices
+    private int[]   inverse;       // indices
     private final int R;         // the radix of the alphabet
 
     /**
