@@ -16,7 +16,7 @@
 
 package edu.princeton.cs.algs4;
 
-import algs4.exercise.ErdosRenyi;
+import pers.dlx.algs4.ErdosRenyi;
 
 /**
  *  The {@code DoublingTest} class provides a client for measuring
