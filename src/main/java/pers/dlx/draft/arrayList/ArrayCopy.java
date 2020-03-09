@@ -1,4 +1,4 @@
-package pers.dlx.draft.ArrayList;
+package pers.dlx.draft.arrayList;
 
 import java.util.Arrays;
 
