@@ -45,6 +45,6 @@ public class StringBytes {
         printBytesUtf8("社会主义核心价值观");
         printBytesUtf8("社");
         printBytesUtf8("沆瀣一气");
-        printBytesUtf8("叕");
+        printBytesUtf8("𡃁");
     }
 }
