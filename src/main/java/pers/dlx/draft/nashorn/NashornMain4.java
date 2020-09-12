@@ -14,11 +14,8 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @author: dlx
  * @created: 2020/08/12 23:09
  */
-public final class NashornMain3 {
+public class NashornMain4  {
 
-    final public void test() {
-        System.out.println("5464");
-    }
 
     public static void main(String[] args) throws ScriptException {
         long startTime = System.currentTimeMillis();
